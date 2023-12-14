@@ -231,7 +231,7 @@ def action():
     '[\xe2\x9c\x93] Total OK/CP : ' + str(len(oks)) + '/' + str(len(cpb))
     print '[\xe2\x9c\x93] CP File Has Been Saved : save/checkpoint.txt'
     raw_input('\n[Press Enter To Go Back]')
-    os.system('python2 jihad.py')
+    os.system('python2 BDclone.py')
 
 
 if __name__ == '__main__':
